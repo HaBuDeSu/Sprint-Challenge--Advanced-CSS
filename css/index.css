@@ -256,6 +256,7 @@ footer {
 @media (max-width: 500px) {
   .home .walk {
     margin-top: 25px;
+    flex-direction: column-reverse;
   }
 }
 .home .walk .walk-text {

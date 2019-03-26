@@ -1,1 +1,36 @@
 // Mixins Here
+.sign-up-button (@bg-color: @btn-bg-color, @text-color: @btn-text-color) {
+  background-color: @bg-color;
+  color: @text-color;
+  font-size: 2rem;
+  text-align: center;
+  padding: 7px 12px;
+  border-radius: 5px;
+  border: 3px solid @bg-color;
+
+  &:hover {
+    background-color: @text-color;
+    color: @bg-color;
+
+  }
+
+  @media @phone {
+    width: 100%;
+    padding: 30px;
+  }
+}
+
+.three-columns {
+  width: 28%;
+  margin: 20px 2.5%;
+}
+
+.top-border {
+  border-top: 1px solid @main-border-color;
+}
+
+.wander {
+  animation-name: wander;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}

@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+An adaptive website has specific designs for various devices where as a responsive website adjusts it's layout based on the width of the viewport/screen.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+This determines what version of the site you're going to develop/design first. You can then use media queries to adjust the site for other devices.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+It makes rem units = pixels/10 i.e. 1rem = 10px.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+It lets you use features like variables, mixins, and nesting to make writing CSS more efficient and the code itself more organized and readable.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+I think variables are the most useful both on their own and as part of parametric mixins. What gives me the most trouble is identifying good opportunities to use these features.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -58,13 +68,13 @@ Follow these steps to set up your project:
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
- 
+
 Follow these steps for completing your project.
 
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [ ] Add your project manager as a reviewer on the pull-request
 - [ ] Your project manager will count the project as complete by merging the branch back into master.
- 
+
 
 ### Preprocessor Set up
 
